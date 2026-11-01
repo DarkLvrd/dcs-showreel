@@ -21,6 +21,14 @@
     video { width: min(92vw, 400px); border-radius: 16px; box-shadow: 0 24px 80px rgba(0,0,0,.6); background: #000; }
     a { color: #c6f24e; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    .ig {
+      display: inline-flex; align-items: center; gap: 10px;
+      padding: 12px 22px; border-radius: 999px;
+      background: #c6f24e; color: #0a0b08; font-weight: 600; font-size: 0.95rem;
+      box-shadow: 0 10px 40px rgba(198,242,78,.25);
+    }
+    .ig:hover { text-decoration: none; filter: brightness(1.05); }
+    .ig svg { width: 18px; height: 18px; }
     .meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 18px; font-size: 0.8rem; color: #6f7563; }
   </style>
 </head>
@@ -30,8 +38,12 @@
   <video controls autoplay loop muted playsinline poster="media/poster.jpg">
     <source src="media/dcs-showreel-vertical.mp4" type="video/mp4">
   </video>
+  <a class="ig" href="https://instagram.com/DarkLvrd.x" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+    More videos on Instagram · @DarkLvrd.x
+  </a>
+  <p class="sub">Full portfolio of ads and motion work on Instagram</p>
   <div class="meta">
-    <a href="https://instagram.com/DarkLvrd.x">Instagram</a>
     <a href="https://github.com/DarkLvrd">GitHub</a>
     <a href="mailto:chevobank@gmail.com">chevobank@gmail.com</a>
   </div>
